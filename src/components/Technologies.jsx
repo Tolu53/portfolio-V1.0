@@ -6,7 +6,8 @@ import javascript from '../assets/javascript.png'
 import tailwind from '../assets/tailwind.png'
 import node from '../assets/node.png'
 import reactimg from '../assets/react.png'
-
+import java from '../assets/java.png'
+import python from '../assets/python.png'
 
 
 
@@ -32,7 +33,7 @@ style:'shadow-yellow-500'
 id:4,
 src:Github,
 title:'Github',
-style:'shadow-grey-400',
+style:'shadow-white',
 },{
 id:5,
 src:node,
@@ -45,11 +46,23 @@ style:'shadow-lime-500',
     style:'shadow-sky-400',
     }
     ,{
-        id:6,
+        id:7,
            src:reactimg,
            title:'React.js',
            style:'shadow-blue-600',
            }
+           ,{
+            id:8,
+               src:java,
+               title:'Java',
+               style:'shadow-red-600',
+               }
+               ,{
+                id:9,
+                   src:python,
+                   title:'Python',
+                   style:'shadow-yellow-400',
+                   }
 ]
   return (
     <div name="tech" className='bg-zinc-800 text-white  w-full h-screen'>
