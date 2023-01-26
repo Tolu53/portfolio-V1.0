@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage from '../assets/Heroimg.jpg'
 import { FaGithub , FaLinkedin  } from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
+import {Link} from  'react-scroll'
 
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
                 <h2 className=' text-3xl sm:text-5xl capitalize font-starwar'> A software engineer and fullstack developer</h2>
                 <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto et eius nostrum necessitatibus, itaque omnis! Explicabo quod odio ullam minus odit libero sit et eius assumenda! Et a aut nihil!</p>
                 <div>
-                    <a href="https://docs.google.com/document/d/1XCoBYSzPqKcysnjtDJ82U12ySV7tryR-zTk2DwC4O3E/edit" target="_blank">
+                    <a href="https://docs.google.com/document/d/1XCoBYSzPqKcysnjtDJ82U12ySV7tryR-zTk2DwC4O3E/edit" >
                     <button className='w-fit px-6 py-3 my-2 flex items-center rounded-md bg-black cursor-pointer'>
                     About Me
                 </button>
@@ -26,23 +27,23 @@ const Home = () => {
                 <div className='py-4'>
                 <ul className='px-4 flex justify-between items-center'>
         <li className='px-4'>
-            <a href="https://www.linkedin.com/in/tolu-james-8a38b71a9/" target="_blank" className='flex justify-between items-center px-4 cursor-pointer '>
+            <a href="https://www.linkedin.com/in/tolu-james-8a38b71a9/"  className='flex justify-between items-center px-4 cursor-pointer '>
                 <><FaLinkedin size={40} />
                 </>
             </a>
         </li>
         <li className='px-4'>
-            <a href="https://github.com/Tolu53"  target="_blank" className='flex justify-between items-center px-4'>
+            <a href="https://github.com/Tolu53"   className='flex justify-between items-center px-4'>
                 <><FaGithub size={40} />
                 </>
             </a>
         </li>
-        <li className='px-4'>
-            <a href="" className='flex justify-between items-center px-4'>
+        {/* <li className='px-4'>
+            <a href={contact} smooth duration={500} className='flex justify-between items-center px-4'>
                 <><AiOutlineMail size={40} />
                 </>
             </a>
-        </li>
+        </li> */}
        </ul>
                 </div>
             </div>
