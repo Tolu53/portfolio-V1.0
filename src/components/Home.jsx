@@ -7,22 +7,22 @@ import {Link} from  'react-scroll'
 
 const Home = () => {
   return (
-    <div name ="home" className='h-screen w-full bg-zinc-800 text-white'>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+    <div name ="home" className='h-screen w-full bg-zinc-800 text-white '>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row'>
             <div>
                 <h1 className=' my-2 text-7xl sm:text-9xl capitalize font-starwar'>Hi Im tolu james</h1>
                 <h2 className=' text-3xl sm:text-5xl capitalize font-starwar'> A software engineer and fullstack developer</h2>
                 <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto et eius nostrum necessitatibus, itaque omnis! Explicabo quod odio ullam minus odit libero sit et eius assumenda! Et a aut nihil!</p>
                 <div>
-                    <a href="https://docs.google.com/document/d/1XCoBYSzPqKcysnjtDJ82U12ySV7tryR-zTk2DwC4O3E/edit" >
-                    <button className='w-fit px-6 py-3 my-2 flex items-center rounded-md bg-black cursor-pointer'>
+                    
+                    <Link to= "About" smooth duration={500} className='w-fit px-6 py-3 my-2 flex items-center rounded-md bg-black cursor-pointer'>
                     About Me
-                </button>
-                    </a>
+                </Link>
+
                 
             </div>
             </div>
-            <div className='w-2/3 md:w-100 '>
+            <div className='w-2/3  '>
                 <img src={HeroImage} alt="My-profile" className='rounded-2xl mx-auto w-100 md:w-full'/>
                 <div className='py-4'>
                 <ul className='px-4 flex justify-between items-center'>
@@ -38,13 +38,15 @@ const Home = () => {
                 </>
             </a>
         </li>
-        {/* <li className='px-4'>
-            <a href={contact} smooth duration={500} className='flex justify-between items-center px-4'>
-                <><AiOutlineMail size={40} />
+
+        <Link to='contact' smooth duration={500} className='flex justify-between items-center px-4'>
+         <li className='px-4'>
+        <><AiOutlineMail size={40} />
                 </>
-            </a>
-        </li> */}
-       </ul>
+                </li>
+        </Link>   
+       
+        </ul>
                 </div>
             </div>
             

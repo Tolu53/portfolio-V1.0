@@ -6,7 +6,16 @@ import React from 'react'
 // import Codewiz from '..assets/projects/Codewiz'
 
 const Projects = () => {
+    const Proj= [{
+        id:1,
+        src: simon,
+        title:'Simon Game',
+    }
+
+]
   return (
+
+
     <div name= "projects" className='text-white  bg-zinc-800 w-full md:h-screen '>
         <div className='max-w-screen-lg flex flex-col mx-auto justify-center h-full w-full px-4 '>
             <div className='pb-6'>
@@ -16,12 +25,20 @@ const Projects = () => {
             {/* card div */}
             <div className='grid '>
                 <div className='shadow-md shadow-gray-600 rounded-md '>
-                    <h1 className=' text-3xl'>Simon Game</h1>
-                    <img src={simon} alt="" className='rounded-md duration-200 hover:scale-105' />
-                    <div className=' px-4 py-4 flex items-center justify-center'>
-                        <button className='duration-200 hover:underline px-6 w-1/2 border-r'>Test Me </button>
-                        <button className='duration-200 hover:underline px-6 w-1/2'>Code</button>
-                    </div>
+                {
+                Proj.map(({id,src,title})=>(
+               <><div key={id}>
+                        <h1 className=' text-3xl'>{title}</h1>
+                        <img src={src} alt={title} className='rounded-md duration-200 hover:scale-105' />
+                    </div><div className=' px-4 py-4 flex items-center justify-center'>
+                            <button className='duration-200 hover:underline px-6 w-1/2 border-r'>Test Me </button>
+                            <button className='duration-200 hover:underline px-6 w-1/2'>Code</button>
+                        </div></>
+                ))
+             }
+                  
+                   
+                    
                 </div>
             </div>
             
