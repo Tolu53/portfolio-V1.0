@@ -12,7 +12,7 @@ const Home = () => {
             <div>
                 <h1 className=' my-2 text-7xl sm:text-9xl capitalize font-starwar'>Hi Im tolu james</h1>
                 <h2 className=' text-3xl sm:text-5xl capitalize font-starwar'> A software engineer and fullstack developer</h2>
-                <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto et eius nostrum necessitatibus, itaque omnis! Explicabo quod odio ullam minus odit libero sit et eius assumenda! Et a aut nihil!</p>
+                <p className='text-xl'>Welcome to my website! Here, you will find information on my skills, experience, and projects. Browse through my portfolio and contact me for more information on how I can help bring your ideas to life.</p>
                 <div>
                     
                     <Link to= "About" smooth duration={500} className='w-fit px-6 py-3 my-2 flex items-center rounded-md bg-black cursor-pointer'>
