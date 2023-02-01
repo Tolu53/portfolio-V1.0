@@ -65,11 +65,11 @@ style:'shadow-lime-500',
                    }
 ]
   return (
-    <div name="tech" className='bg-zinc-800 text-white  w-full  py-7  md:py-1 '>
+    <div name="tech" className='bg-zinc-800 text-white  w-screen  py-7  md:py-1 '>
         <div className='p-4 flex flex-col max-w-screen-lg justify-center w-full h-full mx-auto'>
             <div>
                 <p className='pb-6 text-3xl sm:text-5xl capitalize font-starwar p-2 inline'>Technolgies</p>
-                <p className='text-xl py-4'>some of the technologies im familair with</p>
+                <p className='text-xl py-4'>some of the technologies im familiar with</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
 

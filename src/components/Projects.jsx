@@ -16,7 +16,7 @@ const Projects = () => {
   return (
 
 
-    <div name= "projects" className='text-white  bg-zinc-800 w-full h-screen py-7  md:py-1 '>
+    <div name= "projects" className='text-white  bg-zinc-800 w-screen h-full py-7  md:py-1 '>
         <div className='max-w-screen-lg flex flex-col mx-auto justify-center h-full w-full px-4 '>
             <div className='pb-6'>
             <p className='text-xl'>Some of the stuff ive worked on</p>
