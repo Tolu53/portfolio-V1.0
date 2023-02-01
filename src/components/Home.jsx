@@ -7,7 +7,7 @@ import {Link} from  'react-scroll'
  
 const Home = () => {
   return (
-    <div name ="home" className=' py-4  md:py-10 h-screen w-screen bg-zinc-800 text-white '>
+    <div name ="home" className=' py-4  md:py-10 h-screen w-full bg-zinc-800 text-white '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row'>
             <div>
                 <h1 className=' my-2 text-5xl sm:text-9xl capitalize font-starwar'>Hi Im tolu james</h1>

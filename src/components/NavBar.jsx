@@ -26,9 +26,9 @@ const NavBar = () => {
     }
   ]
   return (
-    <div className='flex justify-between items-center w-screen h-20  bg-black px-4 text-white'>
+    <div className='flex justify-between items-center w-full h-20  bg-black px-4 text-white'>
       <div className='w-20'>
-        <img className='w-100'  src={logo} alt="Logo" />
+        <img className=''  src={logo} alt="Logo" />
       </div>
       <ul className='hidden md:flex'>
         {/* loop through instead of having multiple */}
@@ -47,10 +47,10 @@ const NavBar = () => {
       </div>
       {/* switch in between */}
       {nav &&(
- <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-white'>
+ <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-2/3 bg-black text-white'>
 
  {links.map(({ id, link}) =>(
-     <li key={id} className='px-4 cursor-pointer first-letter:capitalize py-6 text-4xl 
+     <li key={id} className='px-4 cursor-pointer first-letter:capitalize py-6 text-2xl 
      hover:scale-105'>
        <Link to={link} smooth duration={500} >{link}</Link>
             </li>
