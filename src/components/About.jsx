@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name ="About" className='w-full h-screen bg-zinc-800 text-white py-7  md:py-1 '>
+    <div name ="About" className='w-full  bg-zinc-800 text-white py-7  md:py-1 '>
         <div className=' max-w-screen-lg flex flex-col mx-auto justify-center h-full w-full px-4'>
             <div>
                 <h1 className='pb-6 text-4xl sm:text-5xl capitalize font-starwar '>About Me</h1>
@@ -13,7 +13,7 @@ const About = () => {
               skills in the field of software engineering, machine learning  and mechatronics, and to use my unique background and perspectives to bring 
               innovative solutions to the industry.</p>
              <br />
-             <p className='text-lg my-2 md:text-xl'>I took a liking to coding because the environment is constantly growing which enables continuous growth. It also give you the ability to solve problems 
+             <p className='text-lg my-2  md:text-xl'>I took a liking to coding because the environment is constantly growing which enables continuous growth. It also give you the ability to solve problems 
              that seemed impossible at first, and it provides a creative outlet for me to express myself and make a positive impact on the world. </p>
             <br />
             <p className='text-lg my-2 md:text-xl'>i have also developed a keen interest in Machine Learning and agriculture. </p>
