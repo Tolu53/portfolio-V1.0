@@ -7,7 +7,7 @@ import Technologies from "./components/Technologies";
 
 function App() {
   return (
-    <div>
+    <div className="bg-zinc-800">
 <NavBar/>
 <Home></Home>
 <About />

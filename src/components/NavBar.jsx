@@ -42,15 +42,15 @@ const NavBar = () => {
 
       </ul>
       {/* switch from strokes to drop down  */}
-      <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 md:hidden  '>
+      <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 md:hidden   '>
         { nav ? < FaTimes size={30}/>: <FaBars size={30} />}
       </div>
       {/* switch in between */}
       {nav &&(
- <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-2/3 bg-black text-white'>
+ <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-1/3 bg-black text-white rounded-2xl'>
 
  {links.map(({ id, link}) =>(
-     <li key={id} className='px-4 cursor-pointer first-letter:capitalize py-6 text-2xl 
+     <li key={id} className='px-4 cursor-pointer first-letter:capitalize py-2 text-2xl 
      hover:scale-105'>
        <Link to={link} smooth duration={500} >{link}</Link>
             </li>
