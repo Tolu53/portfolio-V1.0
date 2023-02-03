@@ -2,6 +2,7 @@ import React from 'react'
 // import Codewiz from '..assets/projects/Codewiz'
 // import Afcreate from '..assets/projects/Afcreate'
 // import snake from '..assets/projects/snakeJava'
+import delkolt from '../assets/projects/Delkolt.png'
  import simon from '../assets/projects/simon.png'
 // import Codewiz from '..assets/projects/Codewiz'
 
@@ -10,6 +11,10 @@ const Projects = () => {
         id:1,
         src: simon,
         title:'Simon Game',
+    },{
+        id:2,
+        src: delkolt,
+        title:'Delkolt website',
     }
 
 ]
